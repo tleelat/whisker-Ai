@@ -50,9 +50,7 @@ Place your trained weights under the models directory:
 If you rename files or directories, update `server/settings.py` and `server/routes.py` via env or defaults.
 
 ## Personalization & PII
-- OpenAPI contact now uses brand and website only (no email).
-- `__author__` is set to `WhiskerVision`; adjust to your brand as needed.
+- OpenAPI contact now uses brand and website only 
+- `__author__` is set to `WhiskerVision`; 
 - Tighten CORS further by setting `MYAPP_ALLOWED_ORIGINS` to your exact domains.
 
-## License
-MIT (customize as needed). Update `server/main.py` license metadata if you choose a different license.
